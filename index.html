@@ -22,18 +22,7 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'text-color': 'bg-gradient-to-r from-orange-600 to-red-600',
-              }
-            }
-          }
-        }
-      </script>
+    
 </head>
 <body class="font-manrope">
     <!-- header section  -->
@@ -177,7 +166,7 @@
                         </div>
                     </div>
 
-                    <div class="right-40 top-[700px] w-52 lg:w-[400px]  lg:top-56   z-20  lg:right-80    absolute   space-y-2 bg-white p-10 rounded-md">
+                    <div class="right-40 top-[800px] w-52 lg:w-[400px]  lg:top-56   z-20  lg:right-80    absolute   space-y-2 bg-white p-10 rounded-md">
                         <img class="absolute -top-5 -left-5" src="images/client.png" alt="">
                         <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                         <h1 class="font-bold text-lg">Ilham Yuda</h1>
@@ -202,9 +191,115 @@
                 
              
           </section>
-    </main>
-    <footer>
 
+
+          <!-- news section  -->
+          <section class="my-20">
+            <h1 class="text-5xl font-extrabold text-center">News & Events</h1>
+            <p class="text-center text-lg mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+
+            <!-- new card section  -->
+             <!-- card main div  -->
+            <div class="mt-24 px-10">
+              <!-- card div  -->
+              <div class="flex flex-col lg:flex-row md:flex-row gap-10 justify-center items-center">
+
+                <div class="card lg:w-96 bg-base-100 shadow-xl">
+                  <figure class="px-10 pt-10">
+                   <img src="images/news-1.png" alt="">
+                  </figure>
+                  <div class="card-body">
+                    <p class="">Feb 05, 2027!</p>
+                    <h1 class="card-title">Collecting 8 points for discount</h1>
+                    <div class="card-actions">
+                     <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <button class="border-none py-4 px-7 shadow-lg rounded-md text-orange-600 font-medium">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card lg:w-96 bg-base-100 shadow-xl">
+                  <figure class="px-10 pt-10">
+                   <img src="images/news-1.png" alt="">
+                  </figure>
+                  <div class="card-body">
+                    <p class="">Feb 05, 2027!</p>
+                    <h1 class="card-title">Collecting 8 points for discount</h1>
+                    <div class="card-actions">
+                     <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <button class="border-none py-4 px-7 shadow-lg rounded-md text-orange-600 font-medium">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card lg:w-96 bg-base-100 shadow-xl">
+                  <figure class="px-10 pt-10">
+                   <img src="images/news-1.png" alt="">
+                  </figure>
+                  <div class="card-body">
+                    <p class="">Feb 05, 2027!</p>
+                    <h1 class="card-title">Collecting 8 points for discount</h1>
+                    <div class="card-actions">
+                     <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <button class="border-none py-4 px-7 shadow-lg rounded-md text-orange-600 font-medium">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+    </main>
+    <!-- footer section  -->
+
+    <footer class="mt-32 py-14 bg-gradient-to-r from-[#FF00001A] to-[#FF00001A]">
+       <div class="container mx-auto px-28">
+
+        <div class="flex justify-between">
+          <div>
+            <img src="images/cup.png" alt="">
+          </div>
+          <div class="space-y-3">
+            <p>Ready to get strated?</p>
+               
+            <button class="btn btn-info bg-gradient-to-r from-orange-600 border-none to-red-600 text-white">Get Started</button>
+          </div>
+        </div>
+       </div>
+       <!-- footer main  -->
+       <div class="flex justify-around space-y-8 lg:space-y-0 mt-10 flex-col lg:flex-row items-center container mx-auto">
+        <!-- footer text  -->
+        <div class="block">
+          <span class="footer-title">Quick Links</span> <br>
+          <a class="link link-hover">Home</a> <br>
+          <a class="link link-hover">About Us</a> <br>
+          <a class="link link-hover">insurance</a> <br>
+          <a class="link link-hover">Privacy Policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Our Service</span> <br>
+          <a class="link link-hover">Life Insurance</a> <br>
+          <a class="link link-hover">Car Insurance</a> <br>
+          <a class="link link-hover">insurance</a> <br>
+          <a class="link link-hover">Health Insurance</a> <br>
+          <a class="link link-hover">House Insurance</a>
+        </div>
+        <div>
+          <span class="footer-title">Help</span> <br>
+          <a class="link link-hover">FAQs</a> <br>
+          <a class="link link-hover">About Us</a> <br>
+          <a class="link link-hover">Contact Us</a> <br>
+          <a class="link link-hover">Privacy Policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Subscribe to our newsletter</span> <br>
+           <input class="mt-7 border-b-2 border-gray-400 p-2 bg-transparent" type="email" placeholder="Email address">
+           <span class="ml-3 text-white px-4 inline py-2 rounded-full bg-gradient-to-r from-orange-600 border-none to-red-600 "><i class="fa-solid fa-angle-right"></i></span>
+        </div>
+
+       </div>
+       <p class="text-center mt-14">© 2027 UIDesign.to - All rights reserved.</p>
     </footer>
+
+      
+    
 </body>
 </html>
